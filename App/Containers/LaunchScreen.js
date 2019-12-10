@@ -1,32 +1,27 @@
-import React, { Component } from 'react'
-import { ScrollView, Text, Image, View } from 'react-native'
+import React, { Component, useEffect } from 'react'
+import { ScrollView, Text, Image, View, Button } from 'react-native'
 import DevscreensButton from '../../ignite/DevScreens/DevscreensButton.js'
-
 import { Images } from '../Themes'
-
-// Styles
+import dynamicEventLink from './dynamicEventLink'
+// Styles 
 import styles from './Styles/LaunchScreenStyles'
+import firebase from 'react-native-firebase'
 
-export default class LaunchScreen extends Component {
-  render () {
-    return (
-      <View style={styles.mainContainer}>
-        <Image source={Images.background} style={styles.backgroundImage} resizeMode='stretch' />
-        <ScrollView style={styles.container}>
-          <View style={styles.centered}>
-            <Image source={Images.launch} style={styles.logo} />
-          </View>
+export const LaunchScreen = () => {
+  useEffect(() => {
+    console.log("useEffect")
+    firebase.links().getInitialLink()
+    .then(url => {
+      alert("initial link: ", url)
+    })
+  })
 
-          <View style={styles.section} >
-            <Image source={Images.ready} />
-            <Text style={styles.sectionText}>
-              This probably isn't what your app is going to look like. Unless your designer handed you this screen and, in that case, congrats! You're ready to ship. For everyone else, this is where you'll see a live preview of your fully functioning app using Ignite.
-            </Text>
-          </View>
-
-          <DevscreensButton />
-        </ScrollView>
-      </View>
-    )
-  }
+  return (
+    <View style={styles.mainContainer}>
+      <Image source={Images.background} style={styles.backgroundImage} resizeMode='stretch' />
+      <Button title="Dynamic link with parameter 1" onPress={() => dynamicEventLink(1)}></Button>
+      <Button title="Dynamic link with parameter 2" onPress={() => dynamicEventLink(2)}></Button>
+      <Button title="Dynamic link with parameter 3" onPress={() => dynamicEventLink(3)}></Button>
+    </View>
+  )
 }

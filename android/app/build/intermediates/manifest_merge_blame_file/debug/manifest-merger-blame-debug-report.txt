@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dplus.rnDynamicLink"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+14-->[:react-native-firebase] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/6ba28f9597ef0513c9d06bfef33196c2/play-services-gcm-17.0.0/AndroidManifest.xml:23:5-82
+15-->[com.google.android.gms:play-services-gcm:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/6ba28f9597ef0513c9d06bfef33196c2/play-services-gcm-17.0.0/AndroidManifest.xml:23:22-79
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:7:5-25:19
+19        android:name="com.rndynamiclink.MainApplication"
+19-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:8:7-38
+20        android:allowBackup="false"
+20-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:12:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/69630f9c41ae5ddb77c6a1f93a89f315/core-1.0.0/AndroidManifest.xml:22:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:10:7-41
+24        android:label="@string/app_name"
+24-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:9:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:11:7-52
+26        android:theme="@style/AppTheme"
+26-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:13:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/debug/AndroidManifest.xml:7:18-53
+28        <activity
+28-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:14:7-23:18
+29            android:name="com.rndynamiclink.MainActivity"
+29-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:15:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+30-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:17:9-79
+31            android:label="@string/app_name"
+31-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:16:9-41
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:18:9-51
+33            <intent-filter>
+33-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:19:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:20:13-65
+34-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:20:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:21:13-73
+36-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:24:7-84
+39-->/Users/piyabuhtwong/Documents/rnDynamicLink/android/app/src/main/AndroidManifest.xml:24:17-81
+40
+41        <service
+41-->[:react-native-firebase] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[:react-native-firebase] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+43            android:exported="false" >
+43-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/e7a47fe6ab9e3dfc00bca59c6b021202/play-services-measurement-api-17.2.0/AndroidManifest.xml:29:13-37
+44            <meta-data
+44-->[:react-native-firebase] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+45                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+45-->[:react-native-firebase] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[:react-native-firebase] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+47            <meta-data
+47-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/e7a47fe6ab9e3dfc00bca59c6b021202/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+48                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+48-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/e7a47fe6ab9e3dfc00bca59c6b021202/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/e7a47fe6ab9e3dfc00bca59c6b021202/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+51                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+51-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+53        </service>
+54
+55        <receiver
+55-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-19:20
+56            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+56-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-70
+57            android:enabled="true"
+57-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-35
+58            android:exported="true" >
+58-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-36
+59            <intent-filter>
+59-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+60                <action android:name="com.android.vending.INSTALL_REFERRER" />
+60-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-79
+60-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-76
+61            </intent-filter>
+62        </receiver>
+63        <receiver
+63-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+64            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+64-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+65            android:exported="true"
+65-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+66            android:permission="com.google.android.c2dm.permission.SEND" >
+66-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+67            <intent-filter>
+67-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+68                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+68-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+68-->[com.google.firebase:firebase-iid:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/333a4b14f4a36b22a5b8879ae448e614/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+69            </intent-filter>
+70        </receiver>
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+76
+77        <receiver
+77-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+78            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+78-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+79            android:enabled="true"
+79-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+80            android:exported="false" >
+80-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+81        </receiver>
+82        <receiver
+82-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+83            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+83-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+84            android:enabled="true"
+84-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+85            android:exported="true"
+85-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+86            android:permission="android.permission.INSTALL_PACKAGES" >
+86-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+87            <intent-filter>
+87-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+88                <action android:name="com.android.vending.INSTALL_REFERRER" />
+88-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-79
+88-->[:react-native-device-info] /Users/piyabuhtwong/Documents/rnDynamicLink/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-76
+89            </intent-filter>
+90        </receiver>
+91
+92        <service
+92-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+93            android:name="com.google.android.gms.measurement.AppMeasurementService"
+93-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+94            android:enabled="true"
+94-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+95            android:exported="false" />
+95-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+96        <service
+96-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+97            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+97-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+100            android:permission="android.permission.BIND_JOB_SERVICE" />
+100-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/a2a37af89ff6b886094f25d7535393e0/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/f47d93387ab382f8a82b6bd47a96f57b/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/f47d93387ab382f8a82b6bd47a96f57b/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+104            android:authorities="com.dplus.rnDynamicLink.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/f47d93387ab382f8a82b6bd47a96f57b/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+105            android:exported="false"
+105-->[com.google.firebase:firebase-common:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/f47d93387ab382f8a82b6bd47a96f57b/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+106            android:initOrder="100" />
+106-->[com.google.firebase:firebase-common:19.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/f47d93387ab382f8a82b6bd47a96f57b/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/9bfeffd8a4a7d946115955b582862fce/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/9bfeffd8a4a7d946115955b582862fce/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:17.0.0] /Users/piyabuhtwong/.gradle/caches/transforms-2/files-2.1/9bfeffd8a4a7d946115955b582862fce/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+111    </application>
+112
+113</manifest>

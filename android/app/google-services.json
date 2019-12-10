@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "904650175445",
+    "firebase_url": "https://rndynamiclink.firebaseio.com",
+    "project_id": "rndynamiclink",
+    "storage_bucket": "rndynamiclink.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904650175445:android:054f8afbb52b17c482c35c",
+        "android_client_info": {
+          "package_name": "com.dplus.rnDynamicLink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904650175445-0uro90sgg53lvopg7an05320k3nh16ee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApWkPEk3uu673d7u1ezPj3qukwir3a6kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904650175445-0uro90sgg53lvopg7an05320k3nh16ee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "904650175445-rfulavu9l1m7ig2nl5uj0a87fq06203h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.dplus.rnDynamicLink",
+                "app_store_id": "962194608"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
