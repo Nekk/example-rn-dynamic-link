@@ -9,12 +9,18 @@ import firebase from 'react-native-firebase'
 
 export const LaunchScreen = () => {
   useEffect(() => {
-    console.log("useEffect")
-    firebase.links().getInitialLink()
-    .then(url => {
-      alert("initial link: ", url)
+    // console.log("useEffect")
+    // firebase.links().getInitialLink()
+    // .then(url => {
+    //   alert("initial link: ", url)
+    // })
+    const unsubscribe = firebase.links().onLink(url => {
+      console.log(url, "url")
+      console.log("openn")
     })
-  })
+
+    return () => {unsubscribe()}
+  },[])
 
   return (
     <View style={styles.mainContainer}>
